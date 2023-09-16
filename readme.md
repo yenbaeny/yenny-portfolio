@@ -8,7 +8,7 @@ The `assets` folder contains all JavaScript, CSS, and image files used in the we
 
 ## Visit the Website
 
-You can access the website at `https://yenbaeny.github.io/yenny-portfolio`.
+You can access the website at `https://yenbaeny.github.io/yenny-portfolio/`.
 
 ## Contact
 
