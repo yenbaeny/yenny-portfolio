@@ -10,6 +10,7 @@
 
 #about-me {
     font-family: 'Arial', sans-serif;
+    height: 500px;
     position: relative;
     color: #333;
     line-height: 1.6;
@@ -21,7 +22,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    z-index: 1;
+    z-index: 5;
 }
 
 #about-me h1, #about-me p {
