@@ -15,7 +15,11 @@
     color: #333;
     line-height: 1.6;
     margin: 20px 0;
-    padding: 200px;
+    padding: 100px;
+}
+
+.about-me-content {
+    max-width: 800px;
 }
 
 #particles-js {
@@ -37,11 +41,15 @@
     color: #333;
     line-height: 1.6;
     margin: 20px 0;
-    padding: 50px;
+    padding: 100px;
 }
 
 .card {
     height: 100%; 
+}
+
+a {
+    text-decoration: none;
 }
 
 .card-body {
