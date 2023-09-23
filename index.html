@@ -4,16 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yenny Bae - Data Science</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/main.css">
     
 </head>
 <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <header>
-        <h1>My Portfolio</h1>
+        <h1>Yenny Bae</h1>
         <nav>
             <ul>
                 <li><a href="#about-me">About Me</a></li>
@@ -25,49 +23,53 @@
 
 
     <!-- About Me Section -->
-    <section id="about-me">
+    <section id="about-me" class="mt-5">
         <h1>About Me</h1>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, at, quisquam ea sint nam expedita tenetur eaque nobis autem iure iste? Vero laboriosam, fugit eaque maiores aspernatur quia quod voluptates!</p>
     </section>
 
     <!-- Projects Section -->
-    <section id="projects">
-        <h1>PROJECTS</h1>
+    <section id="projects" class="mt-5">
+        <h1>Projects</h1>
         <div class="container">
             <div class="row">
                 <!-- Project 1 -->
+                
                 <div class="col-md-4">
+                    <a href="https://grand-team-83d.notion.site/Hateful-Memes-Classification-7a98d40a4ecf4b6abf2645446482a474?pvs=4">
                     <div class="card">
                         <img src="assets/img/projects/hateful-memes.png" class="card-img-top" alt="Project 1">
                         <div class="card-body">
                             <h5 class="card-title">Hateful Memes - Multimodal classification</h5>
                             <p class="card-text">
-                                <span class="badge badge-primary">Python</span>
-                                <span class="badge badge-primary">Deep Learning</span>
-                                <span class="badge badge-primary">HTML</span>
+                                <span class="badge text-bg-primary">Python</span>
+                                <span class="badge text-bg-success">Deep Learning</span>
                             </p>
                         </div>
                         <div class="card-hover">
                             <p>Short description of Project 1</p>
                         </div>
                     </div>
+                    </a>
                 </div>
                 <!-- Project 2 -->
                 <div class="col-md-4">
+                    <a href="https://grand-team-83d.notion.site/Visualizing-the-tones-of-news-articles-feada9c2bf474552931e0ff3cafd3eb0?pvs=4">
                     <div class="card">
                         <img src="assets/img/projects/news-tones.png" class="card-img-top" alt="Project 2">
                         <div class="card-body">
                             <h5 class="card-title">Visualising the spectrum of tones in news articles</h5>
                             <p class="card-text">
-                                <span class="badge badge-primary">Python</span>
-                                <span class="badge badge-primary">Machine Learning - Topic Modeling</span>
-                                <span class="badge badge-primary">Data Visualisation</span>
+                                <span class="badge text-bg-primary">Python</span>
+                                <span class="badge text-bg-success">Machine Learning</span>
+                                <span class="badge text-bg-warning">Data Visualisation</span>
                             </p>
                         </div>
                         <div class="card-hover">
                             <p>Short description of Project 2</p>
                         </div>
                     </div>
+                    </a>
                 </div>
                 <!-- Project 3 -->
                 <div class="col-md-4">
@@ -76,8 +78,8 @@
                         <div class="card-body">
                             <h5 class="card-title">Sentiment Analysis Website</h5>
                             <p class="card-text">
-                                <span class="badge badge-primary">HTML/CSS</span>
-                                <span class="badge badge-primary">JavaScript</span>
+                                <span class="badge text-bg-secondary">HTML/CSS</span>
+                                <span class="badge text-bg-danger">JavaScript</span>
                                 <span class="badge badge-primary">Flask</span>
                             </p>
                         </div>
@@ -111,7 +113,7 @@
                             <p class="card-text">
                                 <span class="badge badge-primary">JavaScript</span>
                                 <span class="badge badge-primary">D3.js</span>
-                                <span class="badge badge-primary">Data Visualisation</span>
+                                <span class="badge text-bg-warning">Data Visualisation</span>
                             </p>
                         </div>
                         <div class="card-hover">
@@ -126,8 +128,8 @@
                         <div class="card-body">
                             <h5 class="card-title">Detect Sleep States</h5>
                             <p class="card-text">
-                                <span class="badge badge-primary">Python</span>
-                                <span class="badge badge-primary">Machine Learning</span>
+                                <span class="badge text-bg-primary">Python</span>
+                                <span class="badge text-bg-success">Machine Learning</span>
                             </p>
                         </div>
                         <div class="card-hover">
@@ -140,15 +142,13 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact">
+    <section id="contact" class="mt-5 mb-5">
         <h1>Contact</h1>
         <div class="contact-icons">
-            <!-- GitHub Icon and Link -->
             <a href="https://github.com/yenbaeny" target="_blank">
                 <img src="assets/img/icons/github.png" alt="GitHub" width="50" height="50">
             </a>
         
-            <!-- LinkedIn Icon and Link -->
             <a href="https://www.linkedin.com/in/yennybae" target="_blank">
                 <img src="assets/img/icons/linkedin.png" alt="LinkedIn" width="50" height="50">
             </a>
