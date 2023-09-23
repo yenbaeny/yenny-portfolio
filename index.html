@@ -7,23 +7,47 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/main.css">
     
+    
 </head>
 <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <header>
-        <h1>Yenny Bae</h1>
-        <nav>
-            <ul>
-                <li><a href="#about-me">About Me</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <nav class="navbar navbar-expand-lg custom-nav">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Yenny Bae</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about-me">About Me</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                  </li>
+                </ul>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="https://www.linkedin.com/in/yennybae" target="_blank">LinkedIn</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.kaggle.com/yenbaeny" target="_blank">Kaggle</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/yenbaeny" target="_blank">GitHub</a>
+                      </li>
+              </div>
+            </div>
+          </nav>
     </header>
+
+    
 
 
     <!-- About Me Section -->
     <section id="about-me" class="mt-5">
+        <div id="particles-js"></div>
         <h1>About Me</h1>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, at, quisquam ea sint nam expedita tenetur eaque nobis autem iure iste? Vero laboriosam, fugit eaque maiores aspernatur quia quod voluptates!</p>
     </section>
@@ -35,7 +59,7 @@
             <div class="row">
                 <!-- Project 1 -->
                 
-                <div class="col-md-4">
+                <div class="col-md-4 mb-3">
                     <a href="https://grand-team-83d.notion.site/Hateful-Memes-Classification-7a98d40a4ecf4b6abf2645446482a474?pvs=4">
                     <div class="card">
                         <img src="assets/img/projects/hateful-memes.png" class="card-img-top" alt="Project 1">
@@ -53,7 +77,7 @@
                     </a>
                 </div>
                 <!-- Project 2 -->
-                <div class="col-md-4">
+                <div class="col-md-4 mb-3">
                     <a href="https://grand-team-83d.notion.site/Visualizing-the-tones-of-news-articles-feada9c2bf474552931e0ff3cafd3eb0?pvs=4">
                     <div class="card">
                         <img src="assets/img/projects/news-tones.png" class="card-img-top" alt="Project 2">
@@ -72,7 +96,7 @@
                     </a>
                 </div>
                 <!-- Project 3 -->
-                <div class="col-md-4">
+                <div class="col-md-4 mb-3">
                     <div class="card">
                         <img src="assets/img/projects/sentiment-analysis.png" class="card-img-top" alt="Project 3">
                         <div class="card-body">
@@ -89,14 +113,14 @@
                     </div>
                 </div>
                 <!-- Project 4 -->
-                <div class="col-md-4">
+                <div class="col-md-4 mb-3">
                     <div class="card">
                         <img src="assets/img/projects/project4.png" class="card-img-top" alt="Project 4">
                         <div class="card-body">
                             <h5 class="card-title">Gen AI Project</h5>
                             <p class="card-text">
-                                <span class="badge badge-primary">Python</span>
-                                <span class="badge badge-primary">Deep Learning</span>
+                                <span class="badge text-bg-primary">Python</span>
+                                <span class="badge text-bg-success">Deep Learning</span>
                             </p>
                         </div>
                         <div class="card-hover">
@@ -105,14 +129,14 @@
                     </div>
                 </div>
                 <!-- Project 5 -->
-                <div class="col-md-4">
+                <div class="col-md-4 mb-3">
                     <div class="card">
                         <img src="assets/img/projects/project5.png" class="card-img-top" alt="Project 5">
                         <div class="card-body">
                             <h5 class="card-title">Interactive Web Visualisation</h5>
                             <p class="card-text">
-                                <span class="badge badge-primary">JavaScript</span>
-                                <span class="badge badge-primary">D3.js</span>
+                                <span class="badge text-bg-danger">JavaScript</span>
+                                <span class="badge text-bg-info">D3.js</span>
                                 <span class="badge text-bg-warning">Data Visualisation</span>
                             </p>
                         </div>
@@ -122,7 +146,7 @@
                     </div>
                 </div>
                 <!-- Project 6 -->
-                <div class="col-md-4">
+                <div class="col-md-4 mb-3">
                     <div class="card">
                         <img src="assets/img/projects/project6.png" class="card-img-top" alt="Project 6">
                         <div class="card-body">
@@ -141,23 +165,17 @@
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="mt-5 mb-5">
-        <h1>Contact</h1>
-        <div class="contact-icons">
-            <a href="https://github.com/yenbaeny" target="_blank">
-                <img src="assets/img/icons/github.png" alt="GitHub" width="50" height="50">
-            </a>
-        
-            <a href="https://www.linkedin.com/in/yennybae" target="_blank">
-                <img src="assets/img/icons/linkedin.png" alt="LinkedIn" width="50" height="50">
-            </a>
-        </div>
-    </section>
+
 <footer>
 
 </footer>
     <!-- Link to your JavaScript file -->
     <script src="assets/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script>
+        particlesJS.load('particles-js', 'assets/particles.json', function() {
+            console.log('particles.js loaded - callback');
+        });
+    </script>
 </body>
 </html>
