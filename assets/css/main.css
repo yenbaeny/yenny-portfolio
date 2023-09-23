@@ -3,6 +3,19 @@
     color: white;
 }
 
+.bold-blue {
+    font-weight: bold;
+    color: #b8c0ff;
+}
+
+h1{
+    font-family: 'Secular One', sans-serif;
+}
+
+p{
+    font-family: 'Jaldi', sans-serif;
+}
+
 .navbar-brand {
     font-size: x-large;
     font-weight: bold;
@@ -52,9 +65,20 @@ a {
     text-decoration: none;
 }
 
+
+.custom-card {
+    padding: 20px; /* adjust as needed */
+}
+
+
+.card-title{
+    font-family: 'Jaldi', sans-serif;
+    font-weight: bold;
+}
+
 .card-body {
-    min-height: 200px;
-    height: 200px;
+    min-height: 150px;
+    height: 150px;
     overflow: auto; 
 }
 
