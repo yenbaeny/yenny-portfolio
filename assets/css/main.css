@@ -105,3 +105,17 @@ a {
 .card:hover .card-hover {
     display: block;
 }
+
+#extra-projects {
+    display: none;
+}
+
+.see-more-button {
+    background-color: #b8c0ff; 
+    color: #ffffff; 
+    border: none; 
+}
+
+.see-more-button:hover {
+    background-color: #c8b6ff; 
+}
