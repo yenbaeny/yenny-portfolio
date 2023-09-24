@@ -3,6 +3,14 @@
     color: white;
 }
 
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
 .bold-blue {
     font-weight: bold;
     color: #b8c0ff;
@@ -21,6 +29,7 @@ p{
     font-weight: bold;
 }
 
+
 #about-me {
     font-family: 'Arial', sans-serif;
     position: relative;
@@ -29,6 +38,9 @@ p{
     line-height: 1.6;
     margin: 20px 0;
     padding: 100px;
+    display: flex;  
+    flex-direction: column;  
+    justify-content: center;  
 }
 
 .about-me-content {
@@ -57,14 +69,13 @@ p{
     padding: 100px;
 }
 
-.card {
-    height: 100%; 
-}
-
 a {
     text-decoration: none;
 }
 
+.card {
+    height: 100%; 
+}
 
 .custom-card {
     padding: 20px; /* adjust as needed */
@@ -77,9 +88,15 @@ a {
 }
 
 .card-body {
+    position: relative;
     min-height: 150px;
     height: 150px;
     overflow: auto; 
+}
+
+.card-text {
+    position: absolute;
+    bottom: 0;
 }
 
 .card-img-top {
